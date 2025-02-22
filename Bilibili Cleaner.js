@@ -9,8 +9,8 @@
 // @grant        none
 // @run-at       document-end
 // @license      MIT
-// @downloadURL  
-// @updateURL    
+// @downloadURL https://update.greasyfork.org/scripts/527722/Bilibili%20Cleaner.user.js
+// @updateURL https://update.greasyfork.org/scripts/527722/Bilibili%20Cleaner.meta.js
 // ==/UserScript==
 
 (function() {
@@ -61,31 +61,31 @@
         '.gift-control-section.p-relative.border-box.z-gift-control-section.bg-bright-filter'，
         '.flip-view-image.dp-i-block.v-top.w-100.h-100.ts-dot-4'，
         '.bottom.p-rel.w-100.t-center.fs-14'，
-        '.new-tabs.dp-i-block.list-none.none-select',
-        '.link-footer',
-        '.p-relative.dp-i-block.v-top.w-100.h-100',
-        '.flip-view-image-ctnr.img-bright-filter.ts-dot-4',
-        '.flip-view.p-relative.over-hidden.w-100',
-        '#link-footer-vm',
-        '.link-footer-ctnr.z-link-footer-ctnr',
-        '.room-feed.trends',
-        '.section-block.f-clear.z-section-blocks',
-        '#rank-list-ctnr-box',
-        '.rank-list-ctnr.p-absolute.border-box.bgStyle',
-        '#rank-list-vm',
-        '.live-skin-coloration-area.p-relative.rank-list-section.new',
-        '.chat-item.convention-msg.border-box',
-        '.left-entry__title',
-        '.bili-dyn-publishing',
-        '.bili-dyn-list-tabs__list',
-        '.bili-dyn-list-tabs',
-        '.opus-module-author__right',
+        '.new-tabs.dp-i-block.list-none.none-select'，
+        '.link-footer'，
+        '.p-relative.dp-i-block.v-top.w-100.h-100'，
+        '.flip-view-image-ctnr.img-bright-filter.ts-dot-4'，
+        '.flip-view.p-relative.over-hidden.w-100'，
+        '#link-footer-vm'，
+        '.link-footer-ctnr.z-link-footer-ctnr'，
+        '.room-feed.trends'，
+        '.section-block.f-clear.z-section-blocks'，
+        '#rank-list-ctnr-box'，
+        '.rank-list-ctnr.p-absolute.border-box.bgStyle'，
+        '#rank-list-vm'，
+        '.live-skin-coloration-area.p-relative.rank-list-section.new'，
+        '.chat-item.convention-msg.border-box'，
+        '.left-entry__title'，
+        '.bili-dyn-publishing'，
+        '.bili-dyn-list-tabs__list'，
+        '.bili-dyn-list-tabs'，
+        '.opus-module-author__right'，
         '#notice'
     ];
 
     function removeElements() {
-        selectors.forEach(selector => {
-            document.querySelectorAll(selector).forEach(el => el.remove());
+        selectors。forEach(selector => {
+            document。querySelectorAll(selector)。forEach(el => el。remove());
         });
     }
 
@@ -94,5 +94,5 @@
 
     // 监听DOM变化，确保动态加载的元素也被移除
     const observer = new MutationObserver(removeElements);
-    observer.observe(document.body, { childList: true, subtree: true });
+    observer。observe(document。body， { childList: true， subtree: true });
 })();
