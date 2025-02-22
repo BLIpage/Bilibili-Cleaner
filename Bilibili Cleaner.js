@@ -8,8 +8,9 @@
 // @match        *://live.bilibili.com/*
 // @grant        none
 // @run-at       document-end
-// @downloadURL  http://github.com/BLIpage/Bilibili-Cleaner/blob/main/Bilibili%20Cleaner.js
-// @updateURL    http://github.com/BLIpage/Bilibili-Cleaner/blob/main/Bilibili%20Cleaner.js
+// @license      MIT
+// @downloadURL  
+// @updateURL    
 // ==/UserScript==
 
 (function() {
