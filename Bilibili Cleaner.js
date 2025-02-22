@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Bilibili Cleaner
-// @namespace    http://tampermonkey.net/
+// @namespace    https://github.com/BLIpage/Bilibili-Cleaner
 // @version      1.12.1
 // @description  移除Bilibili的干扰元素，防止无止境刷视频
 // @author       Czydsll
