@@ -8,9 +8,7 @@
 // @match        *://live.bilibili.com/*
 // @grant        none
 // @run-at       document-end
-// @license      MIT
-// @downloadURL https://update.greasyfork.org/scripts/527722/Bilibili%20Cleaner.user.js
-// @updateURL https://update.greasyfork.org/scripts/527722/Bilibili%20Cleaner.meta.js
+// @license      MIT 
 // ==/UserScript==
 
 (function() {
