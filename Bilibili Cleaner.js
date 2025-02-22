@@ -8,58 +8,58 @@
 // @match        *://live.bilibili.com/*
 // @grant        none
 // @run-at       document-end
-// @downloadURL  
-// @updateURL    
+// @downloadURL  http://github.com/BLIpage/Bilibili-Cleaner/blob/main/Bilibili%20Cleaner.js
+// @updateURL    http://github.com/BLIpage/Bilibili-Cleaner/blob/main/Bilibili%20Cleaner.js
 // ==/UserScript==
 
 (function() {
     'use strict';
 
     const selectors = [
-        '.adblock-tips',
-        '.primary-btn.roll-btn',
-        '.rec-list',
-        '.next-play',
-        '.bili-feed4-layout',
-        '.bpx-player-ending',
-        '.bili-header__channel',
-        '.header-channel-fixed',
-        '.entry-title',
-        '.default-entry',
-        '.download-entry.download-client-trigger',
-        '.header-banner__inner',
-        '.primary-btn.top-btn.visible',
-        '.primary-btn.three-dots',
-        '.flexible-roll-btn-inner',
-        '.watchlater-pip-button-inner.expand-btn',
-        '.histories-wrap',
-        '.search-panel',
-        '.bili-dyn-up-list__window',
-        '.right',
-        '.video-tag-container',
-        '.video-card-ad-small',
-        '.ad-report',
-        '.ad-floor-exp',
-        '.right-bottom-banner',
-        '.flex-block',
-        '.shortcuts-ctnr.h-100.f-left',
-        '.side-bar-cntr',
-        '.gift-control-panel.f-clear.b-box.p-relative',
-        '.top3-cntr',
-        '.pilot',
-        '.tab-list.dp-flex',
-        '.right-ctnr',
-        '.card-list',
-        '.card',
-        '.right-container',
-        '.prehold-nav-ctnr',
-        '#background-manage-vm',
-        '.background-changer.z-background-manage',
-        '.tab-content.ts-dot-2.tab-content-pilot',
-        '#gift-control-vm',
-        '.gift-control-section.p-relative.border-box.z-gift-control-section.bg-bright-filter',
-        '.flip-view-image.dp-i-block.v-top.w-100.h-100.ts-dot-4',
-        '.bottom.p-rel.w-100.t-center.fs-14',
+        '.adblock-tips'，
+        '.primary-btn.roll-btn'，
+        '.rec-list'，
+        '.next-play'，
+        '.bili-feed4-layout'，
+        '.bpx-player-ending'，
+        '.bili-header__channel'，
+        '.header-channel-fixed'，
+        '.entry-title'，
+        '.default-entry'，
+        '.download-entry.download-client-trigger'，
+        '.header-banner__inner'，
+        '.primary-btn.top-btn.visible'，
+        '.primary-btn.three-dots'，
+        '.flexible-roll-btn-inner'，
+        '.watchlater-pip-button-inner.expand-btn'，
+        '.histories-wrap'，
+        '.search-panel'，
+        '.bili-dyn-up-list__window'，
+        '.right'，
+        '.video-tag-container'，
+        '.video-card-ad-small'，
+        '.ad-report'，
+        '.ad-floor-exp'，
+        '.right-bottom-banner'，
+        '.flex-block'，
+        '.shortcuts-ctnr.h-100.f-left'，
+        '.side-bar-cntr'，
+        '.gift-control-panel.f-clear.b-box.p-relative'，
+        '.top3-cntr'，
+        '.pilot'，
+        '.tab-list.dp-flex'，
+        '.right-ctnr'，
+        '.card-list'，
+        '.card'，
+        '.right-container'，
+        '.prehold-nav-ctnr'，
+        '#background-manage-vm'，
+        '.background-changer.z-background-manage'，
+        '.tab-content.ts-dot-2.tab-content-pilot'，
+        '#gift-control-vm'，
+        '.gift-control-section.p-relative.border-box.z-gift-control-section.bg-bright-filter'，
+        '.flip-view-image.dp-i-block.v-top.w-100.h-100.ts-dot-4'，
+        '.bottom.p-rel.w-100.t-center.fs-14'，
         '.new-tabs.dp-i-block.list-none.none-select',
         '.link-footer',
         '.p-relative.dp-i-block.v-top.w-100.h-100',
