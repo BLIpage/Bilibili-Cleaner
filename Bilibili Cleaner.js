@@ -78,7 +78,6 @@
         '.bili-dyn-list-tabs__list'，
         '.bili-dyn-list-tabs'，
         '.opus-module-author__right'，
-        '#notice'
     ];
 
     function removeElements() {
