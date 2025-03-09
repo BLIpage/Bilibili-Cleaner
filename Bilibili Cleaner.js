@@ -1,14 +1,16 @@
 // ==UserScript==
 // @name         Bilibili Cleaner
 // @namespace    https://github.com/BLIpage/Bilibili-Cleaner
-// @version      1.12.1
+// @version      2.1.1
 // @description  移除Bilibili的干扰元素，防止无止境刷视频
 // @author       Czydsll
 // @match        *://*.bilibili.com/*
 // @match        *://live.bilibili.com/*
 // @grant        none
 // @run-at       document-end
-// @license      MIT 
+// @license      MIT
+// @downloadURL
+// @updateURL
 // ==/UserScript==
 
 (function() {
@@ -78,6 +80,10 @@
         '.bili-dyn-list-tabs__list'，
         '.bili-dyn-list-tabs'，
         '.opus-module-author__right'，
+        '.loc-mc-box'，
+        '.watchlater-pip-button-inner'，
+        '.fixed-card'，
+        '.bili-dyn-sidebar'，
     ];
 
     function removeElements() {
